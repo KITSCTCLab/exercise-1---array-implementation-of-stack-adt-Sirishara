@@ -6,15 +6,15 @@ class Stack:
 
     def is_empty(self):
         if len(self.items) == 0:
-           return true
+           return True
         else:
-           return false
+           return False
            
     def is_full(self):
         if (self.items) == self.size:
-           return true
+           return True
         else:
-           return false
+           return False
 
     def push(self, data):
         if not self.is_full():
